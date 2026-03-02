@@ -128,15 +128,18 @@ pip install -r requirements.txt
 
 
 
-Run Data Cleaning
-    python data_cleaning.py
+# Run Data Cleaning
+
+   python data_cleaning.py
 
 
-Import Data into MySQL
-    python data_import_sql.py
+# Import Data into MySQL
 
-Run Streamlit Dashboard
-    python -m streamlit run dashboard/app.py
+   python data_import_sql.py
+
+# Run Streamlit Dashboard
+
+   python -m streamlit run dashboard/app.py
 
 
 Author
