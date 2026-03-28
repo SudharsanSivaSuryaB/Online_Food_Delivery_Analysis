@@ -11,6 +11,11 @@ FILE_PATH = "data/ONINE_FOOD_DELIVERY_ANALYSIS.csv"
 
 df = pd.read_csv(FILE_PATH)
 
+duplicates = df[df.duplicated()]
+num_duplicates = df.duplicated().sum()
+print("Number of duplicate rows:", num_duplicates)
+
+
 print("\nDataset Shape:", df.shape)
 print("\nFirst 5 Rows:")
 print(df.head())
